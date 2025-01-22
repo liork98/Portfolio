@@ -53,7 +53,7 @@ const GlobalStyles = createGlobalStyle`
         line-height: 1.8;
         
     }
-
+    
     .section {
         width: 90%;
         max-width: 1000px;
@@ -91,6 +91,12 @@ const GlobalStyles = createGlobalStyle`
         text-align: center;
         background: #fff;
         transition: transform 0.3s ease-in-out;
+        text-decoration: none;
+    }
+    
+    .project-title {
+        text-decoration: none;
+        color: black;
     }
 
     .project-item:hover {

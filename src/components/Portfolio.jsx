@@ -15,13 +15,12 @@ const Portfolio = () => {
                     create value.
                 </p>
 
-
                 {/* Projects Section */}
                 <div className="section">
                     <h3 className="title-projects">Projects</h3>
-                    <ul>
+                    <ul className="projects-conatiner">
                         <li className="project-item">
-                            <p className="project-title">Queens Match</p>
+                            <a href="https://github.com/liork98/queens-match" target="_blank" rel="noopener noreferrer" className="project-title">Queens Match
                             <img src="/assets/projects%20screenshots/Queens%20Match/screenshot1.png"
                                  alt="Queens Match Project" className="project-image"/>
                             <p className="project-describe">
@@ -29,9 +28,10 @@ const Portfolio = () => {
                                 tech community. The app empowers individuals to foster meaningful connections, share
                                 knowledge, and grow together in programming and tech-related fields.
                             </p>
+                            </a>
                         </li>
                         <li className="project-item">
-                            <p className="project-title">Talkability</p>
+                            <a href="https://github.com/liork98/talkability" target="_blank" rel="noopener noreferrer" className="project-title">Talkability
                             <img src="/assets/projects%20screenshots/talkability/screenshot2.png"
                                  alt="Talkability Project" className="project-image"/>
                             <p className="project-describe">
@@ -39,17 +39,19 @@ const Portfolio = () => {
                                 disabilities. The platform enables users to communicate freely via speech, which is
                                 transcribed into written requests for streamlined customer service interactions.
                             </p>
+                            </a>
                         </li>
                         <li className="project-item">
-                            <p className="project-title">Flappy Bird</p>
+                            <a href="https://github.com/liork98/flappybird" target="_blank" rel="noopener noreferrer" className="project-title">Flappy Bird
                             <img src="/assets/projects%20screenshots/FlappyBird.png"
                                  alt="Flappy Bird Project" className="project-image"/>
                             <p className="project-describe">
                                 A fun, interactive remake of the classic Flappy Bird game, built using C# and Unity. This project demonstrates my skills in game physics, animation, and interactive gameplay mechanics.
                             </p>
+                            </a>
                         </li>
                         <li className="project-item">
-                            <p className="project-title">Tic Tac Toe</p>
+                            <a href="https://github.com/liork98/Tic-Tac-Toe-React-Course" target="_blank" rel="noopener noreferrer" className="project-title">Tic Tac Toe
                             <img src="/assets/projects%20screenshots/TicTacToe.png"
                                  alt="Tic Tac Toe Project" className="project-image"/>
                             <p className="project-describe">
@@ -57,6 +59,7 @@ const Portfolio = () => {
                                 This project utilizes React state management and component-based architecture to provide
                                 an intuitive experience for users.
                             </p>
+                            </a>
                         </li>
                     </ul>
                 </div>
