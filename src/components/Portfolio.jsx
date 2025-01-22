@@ -21,7 +21,7 @@ const Portfolio = () => {
                     <ul className="projects-conatiner">
                         <li className="project-item">
                             <a href="https://github.com/liork98/queens-match" target="_blank" rel="noopener noreferrer" className="project-title">Queens Match
-                            <img src="/assets/projects%20screenshots/Queens%20Match/screenshot1.png"
+                            <img src="/assets/projects%20screenshots/QueensMatch.png"
                                  alt="Queens Match Project" className="project-image"/>
                             <p className="project-describe">
                                 A community-driven mentorship application designed to connect mentors and mentees in the
@@ -32,7 +32,7 @@ const Portfolio = () => {
                         </li>
                         <li className="project-item">
                             <a href="https://github.com/liork98/talkability" target="_blank" rel="noopener noreferrer" className="project-title">Talkability
-                            <img src="/assets/projects%20screenshots/talkability/screenshot2.png"
+                            <img src="/assets/projects%20screenshots/Talkability.png"
                                  alt="Talkability Project" className="project-image"/>
                             <p className="project-describe">
                                 A customer service tool designed to empower elderly individuals and people with
