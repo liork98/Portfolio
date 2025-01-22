@@ -1,0 +1,200 @@
+/* ====== Reset & Base Styles ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background: #4facfe;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+/* ====== Main Portfolio Container ====== */
+.portfolio-container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+/* ====== Name & Bio Section ====== */
+.my-name {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bio {
+    max-width: 900px;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+/* ====== Sections (Projects & Contact) ====== */
+.section {
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ====== Section Titles ====== */
+.section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid white;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+/* ====== Project List (Grid Layout) ====== */
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ensures multiple items per row */
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+    width: 100%; /* Takes full width */
+    justify-content: center; /* Centers items when there's space */
+}
+
+/* ====== Individual Project Cards ====== */
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Prevents single cards from taking the whole row */
+    height: 100%;
+}
+
+/* Hover effect */
+.project-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* ====== Project Title & Description ====== */
+.project-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.project-describe {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+    color: white;
+    padding: 0 10px;
+}
+
+/* ====== Project Images ====== */
+.project-image {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 200px; /* Ensures images are uniform */
+}
+
+/* ====== Contact Section ====== */
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.contact-section li {
+    margin-bottom: 10px;
+}
+
+.contact-section a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+/* ====== Responsive Styles ====== */
+@media (max-width: 768px) {
+    .my-name {
+        font-size: 36px;
+    }
+
+    .bio {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .section {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .project-list {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* One per row on smaller screens */
+    }
+
+    .project-item {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .project-title {
+        font-size: 20px;
+    }
+
+    .project-describe {
+        font-size: 14px;
+    }
+
+    .project-image {
+        height: 180px;
+    }
+}
+
+/* Background Animation */
+.wave-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}

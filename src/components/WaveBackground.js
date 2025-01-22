@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import "../styles/PortfolioStyles.css";
 
 const WaveBackground = () => {
     const canvasRef = useRef(null);

@@ -10,14 +10,6 @@ body {
   background-repeat: no-repeat;
 }
 
-/*body.scrollable {*/
-/*  overflow: auto;*/
-/*}*/
-
-/*body.non-scrollable {*/
-/*  overflow: hidden;*/
-/*}*/
-
 .App {
   text-align: center;
 }

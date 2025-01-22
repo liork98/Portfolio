@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Portfolio from "./components/Portfolio";
-import GlobalStyles from "./styles/GlobalStyles";
+import Portfolio from "./components/Portfolio.jsx";
+// import GlobalStyles from "./styles/GlobalStyles";
 
 const App = () => {
     return (
         <>
-            <GlobalStyles />
+            {/*<GlobalStyles />*/}
             <Portfolio />
         </>
     );
