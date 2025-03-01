@@ -1,17 +1,12 @@
-/* ====== Reset & Base Styles ====== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: "Poppins", sans-serif;
     color: white;
-    background: #4facfe;
-    overflow-x: hidden;
-    padding: 0;
-    margin: 0;
+    background-image: url("/public/assets/Background.png"); /* Adjust path if needed */
+    background-size: cover; /* Ensures full coverage */
+    background-position: center; /* Centers the background */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Keeps background static when scrolling */
 }
 
 /* ====== Main Portfolio Container ====== */
@@ -84,7 +79,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    /*padding: 20px;*/
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     background: rgba(255, 255, 255, 0.25);
@@ -188,13 +183,13 @@ body {
     }
 }
 
-/* Background Animation */
-.wave-canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    z-index: -1;
-}
+/* Background Animation*/
+/*.wave-canvas {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    overflow: hidden;*/
+/*    z-index: -1;*/
+/*}*/

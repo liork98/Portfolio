@@ -1,5 +1,5 @@
 import React from "react";
-import WaveBackground from "./WaveBackground";
+// import WaveBackground from "./WaveBackground";
 import AboutMe from "./AboutMe"; // Import AboutMe component
 import ProjectCard from "./ProjectCard"; // Import ProjectCard component
 import Contact from "./Contact"; // Import Contact component
@@ -15,7 +15,7 @@ const projects = [
     {
         title: "Talkability",
         image: "/assets/projects%20screenshots/Talkability.png",
-        description: "A customer service tool designed to empower elderly individuals and people with disabilities. The platform enables users to communicate freely via speech, which is transcribed into written requests for streamlined customer service interactions.",
+        description: "Developed an AI-powered application that assists elderly individuals and people with disabilities by transforming speech into actionable written customer service requests. Created and trained two BERT-based AI models to classify the appropriate request department and urgency level.",
         link: "https://github.com/liork98/talkability"
     },
     {
@@ -41,7 +41,7 @@ const projects = [
 const Portfolio = () => {
     return (
         <>
-            <WaveBackground />
+            {/*<WaveBackground />*/}
             <div className="portfolio-container">
 
                 {/* About Me Section */}

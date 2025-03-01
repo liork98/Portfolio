@@ -1,18 +1,22 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
-  background-image: url('/public/assets/wallpaper.png'); /* Path to your wallpaper */
-  background-size: cover; /* Ensure the image covers the entire screen */
-  background-attachment: fixed; /* Keeps the background fixed while scrolling */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat;
 }
 
+/*body {*/
+/*  color: white;*/
+/*  background-image: url("../assets/Background.png"); !* Adjust path if needed *!*/
+/*  background-size: cover; !* Ensures full coverage *!*/
+/*  background-position: center; !* Centers the background *!*/
+/*  background-repeat: no-repeat; !* Prevents tiling *!*/
+/*  background-attachment: fixed; !* Keeps background static when scrolling *!*/
+/*}*/
 .App {
   text-align: center;
 }
+
+
 
 .App-logo {
   height: 40vmin;
