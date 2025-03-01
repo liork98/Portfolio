@@ -1,9 +1,9 @@
 import React from "react";
-// import WaveBackground from "./WaveBackground";
 import AboutMe from "./AboutMe"; // Import AboutMe component
 import ProjectCard from "./ProjectCard"; // Import ProjectCard component
 import Contact from "./Contact"; // Import Contact component
 import "../styles/GlobalStyles.css";
+import "./Portfolio.css";
 
 const projects = [
     {
@@ -36,6 +36,13 @@ const projects = [
         description: "A modern Tic Tac Toe game built with React.js, featuring a clean UI and interactive gameplay. This project utilizes React state management and component-based architecture to provide an intuitive experience for users.",
         link: "https://github.com/liork98/Tic-Tac-Toe-React-Course"
     }
+    ,
+    {
+        title: "Fruit Ninja",
+        image: "/assets/Background.png",
+        description: "Developed a Fruit Ninja game in C# using Unity alongside a fellow student. We implemented dynamic slicing mechanics, physics-based fruit interactions, and an engaging UI to create a fast-paced, arcade-style experience.",
+        link: "https://github.com/liork98/FruitNinja"
+    }
 ];
 
 const Portfolio = () => {
@@ -49,7 +56,7 @@ const Portfolio = () => {
 
                 {/* Projects Section */}
                 <div className="section">
-                    <h3 className="title-projects">Projects</h3>
+                    <p className="title-projects">Projects</p>
                     <ul className="project-list">
                         {projects.map((project, index) => (
                             <ProjectCard

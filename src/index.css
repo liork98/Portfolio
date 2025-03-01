@@ -6,6 +6,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.playwrite-italia-moderna {
+  font-family: "Playwrite IT Moderna", serif;
+  font-optical-sizing: auto;
+  font-weight: 300; /* Change this value between 100 and 400 */
+  font-style: normal;
+}
+
 ::selection {
   background-color: #93daff; /* Custom yellow highlight */
   color: #040b98; /* Optional: Change selected text color */
